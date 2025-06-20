@@ -7,25 +7,26 @@ body{
  nav{
     display: flex;
     justify-content: space-between;
-
-
+ }
+ .logo{
+   font-size: 16px;
  }
  nav img{
-    height: 4%
-    widht: 4%  
+    height: 4%;
+    width: 4% ; 
     align-self: center;
  }
-  .logo span{
-    front-size:16px;
+  span{
+    font-size:16px;
  }
  span{
    color:blueviolet;
  } 
  .nav-menu{ 
-    flex:60;
+    flex:60%;
     display: flex;
     justify-content: center;
-    align-self: :center;
+    align-items: center;
 
 
  }
@@ -52,7 +53,7 @@ padding: 50px;
     
     }
     .left {
-              flex: 1;
+         flex: 1;
     }
     .right div{
       width: 60%;
@@ -69,10 +70,10 @@ padding: 50px;
       object-fit: cover;
       border-radius: 50px;
       border: 10px solid #eee;
-      box-shadow: 000 20px #f9f9f9;
+      box-shadow: 0 0 0 20px #f9f9f9;
     }
 
-    .greeting{
+    .grettings{
       margin-top: 24%;
         font-size: 16px;
         color: rgb(52, 51, 51);
@@ -80,14 +81,26 @@ padding: 50px;
     }
     .primary-text{
       margin-bottom: 5px;
-      font-size: 50%;
+      font-size: 50px;
       font-weight: 900px;
       line-height: 60px;
       margin-top: 30px;
       color: rgb(52, 51, 51);
     }
+    .secondary-text{ 
+      font-size: 16px;
+      color: gray;
+      margin-left: 2%;
+    }
+    button{
+      padding: 10px 10px;
+      margin-right: 10px;
+      border: 1px solid #333;
+      background:white;
+      cursor: pointer; 
+    }
     button:hover{
-      text-align: center;
+      background:black;
       color: white;
           }
       .about{
@@ -107,10 +120,11 @@ padding: 50px;
          background:linear-gradient(green,lightgreen);
          border-radius: 10px;
          margin-left: 5px;
-               }
+      }
         .about p{
+         color: #555;
          max-width: 600px;
-         margin: q0px auto;
+         margin: 10px auto;
          line-height: 1.6;
             
       }       
@@ -126,7 +140,7 @@ padding: 50px;
          justify-content: center;
          gap: 25px;
          margin-top: 40px;
-         align-items: flex-start
+         align-items: flex-start;
       }
       .skill-label{
          color: green;
@@ -155,7 +169,7 @@ padding: 50px;
          .skill-box p{
          font-size: 12px;
          margin-top: 5px;
-         font-weight: ;
+         font-weight: bold;
          }
 
       
